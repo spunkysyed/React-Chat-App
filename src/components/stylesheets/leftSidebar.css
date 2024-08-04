@@ -1,0 +1,134 @@
+.left-sidebar{
+  display: flex;
+  flex-direction: column;
+}
+.left-sidebar-header{
+height: 18%;
+}
+
+.left-sidebar-list{
+background-color: rgb(236, 236, 236)!important;
+height: 82%!important;
+}
+  .img-container{
+    width: 20%;
+  }
+  .avatar {
+    width: 100%;
+    height: 60%;
+    border-radius: 50%;
+    margin: 0 8px;
+    object-fit:cover;
+  }
+  .avatar2{
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    margin: 0 8px;
+    object-fit:cover;
+  }
+  .name-container{
+    width: 80%;
+  }
+  .contact-tab {
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    height: 17%;
+    margin-bottom: -10px;
+  }
+  .name{
+    font-size: 1.05rem!important;
+  }
+  .context-text{
+    color: #afaeae;
+  }
+  
+  /* new convo tab */
+  .new-convo {
+    display: flex;
+    color: rgb(95, 95, 95);
+    justify-content: space-between;
+    align-items: center;
+  }
+  .new-convo p{
+    cursor:default;
+    letter-spacing: 1.5px;
+  }
+  .new-convo span{
+    padding: 4px 9px;
+  }
+  .new-convo .fas {
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .new-convo .fas:hover{
+    color: black;
+  }
+  .new-convo-tab {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    right: 350px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .nct-header {
+    height: 15%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border: 3px solid gray;
+  }
+  .nct-header p {
+    color: white;
+    font-size: 18px;
+  }
+  .nct-header .fas {
+    cursor: pointer;
+  }
+  .nct-list {
+    height: 85%;
+    overflow: auto;
+    padding-top: 10px;
+  }
+ 
+
+  .all-contact-tab{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    height: 16%;
+    margin-bottom: 10px;
+  }
+
+  .all-tab-img-container{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .all-tab-img-container img{
+    width: 80%;
+    height: 100%;
+    border: 3px solid #afaeae;
+  }
+
+ .active {
+  background-color: black;
+  border-radius:10px;
+}
+
+.active div p{
+  color: white!important;
+}
+
+.active .context-text{
+color: #afaeae!important; 
+}
+

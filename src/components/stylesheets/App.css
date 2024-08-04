@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 14px;
+  }
+
+  /* Custom Scrollbar for WebKit Browsers */
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+  height: 12px; /* Height of the scrollbar for horizontal scrolling */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background color of the scrollbar track */
+  border-radius: 10px; /* Rounded corners of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+  
+  .link-tag {
+    text-decoration: none;
+  }
+  /* media queries */
+  .right-sidebar {
+    padding: 0;
+    width: 75%;
+    height: 100vh;
+    background-color: rgb(236, 236, 236);
+  }
+  .left-sidebar {
+    background-color: rgb(236, 236, 236);
+    border-right: 2px solid rgb(201, 201, 201);
+    width: 25%;
+    height: 100vh;
+  }

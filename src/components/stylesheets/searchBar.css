@@ -1,0 +1,11 @@
+.searchbar-container{
+    background-color: #fafafa;
+}
+
+.searchbar-container i{
+    color: rgb(95, 95, 95);
+}
+
+.searchbar-container input::placeholder{
+    color: #d1d1d1;
+}
