@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-Chat-App/static/css/main.c7b2daf4.css",
+    "main.js": "/React-Chat-App/static/js/main.68d2e7e2.js",
+    "static/media/rimouski sb.otf": "/React-Chat-App/static/media/rimouski sb.342cc474b57a5fe6fc2e.otf",
+    "index.html": "/React-Chat-App/index.html",
+    "main.c7b2daf4.css.map": "/React-Chat-App/static/css/main.c7b2daf4.css.map",
+    "main.68d2e7e2.js.map": "/React-Chat-App/static/js/main.68d2e7e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7b2daf4.css",
+    "static/js/main.68d2e7e2.js"
+  ]
+}
