@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Col, Container, Row } from "react-bootstrap";
 
-import { Route, Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 import { data } from "../Data/users";
 import { updateContacts } from "../actions/contact";
@@ -33,10 +33,9 @@ function App() {
   };
 
   // filter results
-  const filteredContacts = contacts.filter((contact) => {
-    //this will return only the contacts whose name is same as searched input
-    return contact.name.toLowerCase().includes(searchfield.toLowerCase());
-  });
+const filteredContacts = contacts.filter(contact => {
+  return contact.chatlog.some(chat => chat.text.toLowerCase().includes(searchfield.toLowerCase()));
+});
   return (
     <>
       <Container fluid>
